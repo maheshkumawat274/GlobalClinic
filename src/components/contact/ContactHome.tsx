@@ -37,8 +37,8 @@ const ContactHome: React.FC = () => {
       <div className="w-full mx-auto grid md:grid-cols-2 gap-10">
         {/* Left Section */}
         <div className="text-white">
-          <h1 className="uppercase text-4xl font-bold tracking-wide mb-2">_Contact Us_</h1>
-          <h2 className="text-lg leading-snug mb-4">
+          <h1 className="uppercase text-4xl font-bold tracking-wide mt-4 mb-8 text-center sm:text-start">_Contact Us_</h1>
+          <h2 className="text-lg leading-snug mb-8">
              Connect with our expert cardiology team for appointments, emergency heart care, or consultation. We're committed to your heart health with timely support and top-notch facilities.
           </h2>
 
@@ -56,11 +56,11 @@ const ContactHome: React.FC = () => {
           </div>
 
           {/* Image + Text */}
-          <div className="flex flex-col sm:flex-row gap-4 mt-6 items-center">
+          <div className="flex flex-col sm:flex-row gap-4 mt-10 items-center">
             <img
               src="./imgs/treatment.webp"
               alt="Doctor Consultation"
-              className="rounded-md h-48 sm:h-24 w-72"
+              className="rounded-md h-48 sm:h-36 w-72 sm:w-84"
             />
             <p className="text-white text-sm">
               Be Right Path for your Start Up with Business Consulting with challenges it presents may seem

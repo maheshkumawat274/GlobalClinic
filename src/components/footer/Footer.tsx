@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
             <li>
               <Link to='/contact'>
               <a className="hover:underline">
-                Contact
+                Contact Us
               </a></Link>
             </li>
           </ul>
@@ -70,10 +70,10 @@ const Footer: React.FC = () => {
         </div>
       </footer>
       <hr className="text-white"/>
-      <div className="font-bold text-xl py-14 text-center bg-[#046381] text-white px-2">
+      <div className=" text-md py-8 text-center bg-[#046381] text-white px-2">
         <span>
           Designed with{" "}
-          <a href="https://maheshweb.online/" className="underline">
+          <a href="https://maheshweb.online/" className="underline text-sm">
             Creative mahesh
           </a>{" "}
           &copy; Copyright 2025 All Rights Reserved

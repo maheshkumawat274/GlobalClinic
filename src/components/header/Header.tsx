@@ -33,7 +33,7 @@ const Header: React.FC = () => {
     <header>
       {/* --- Top Header --- */}
       <div className="bg-[#EDEDE9] text-sm py-2 px-6 justify-evenly items-center hidden md:flex ">
-        <div className="flex space-x-4 text-[#3647AD]">
+        <div className="flex space-x-4 text-[#046381]">
           <p className="flex items-center hover:underline">Book Online  <span className="px-4">➨</span>  You can request appointment in 24 hours</p>
         </div>
         <nav aria-label="Social Media Links" className="flex space-x-8 text-[#3647AD]">
@@ -111,7 +111,7 @@ const Header: React.FC = () => {
           <button
             onClick={() => setIsMenuOpen(true)}
             aria-label="Open Mobile Menu"
-            className="text-3xl text-[#3647AD]"
+            className="text-3xl text-[#046381]"
           >
             <HiMenu className="text-white"/>
           </button>
@@ -120,14 +120,22 @@ const Header: React.FC = () => {
 
       {/* --- Mobile Menu Drawer --- */}
       <aside
-        className={`fixed top-0 left-0 z-40 h-full w-3/4 max-w-xs bg-[#3647AD] text-white transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 z-40 h-full w-full bg-[#046381] text-white transform transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         aria-label="Mobile Navigation Menu"
       >
         {/* Close Button */}
         <div className="flex justify-between items-center px-4 py-4 border-b border-white/20">
-          <img src="./imgs/logo.png"></img>
+          <div className="flex items-center gap-3 h-24 w-48">
+          <Link to="/" className="flex items-center gap-2" aria-label="Global Heart Clinic">
+            <img
+              src="./imgs/logo.png"
+              alt="Global Heart Clinic logo"
+              className=""
+            />
+          </Link>
+        </div>
           <button
             onClick={() => setIsMenuOpen(false)}
             aria-label="Close Mobile Menu"
@@ -143,7 +151,7 @@ const Header: React.FC = () => {
           <Link to="/about" onClick={() => setIsMenuOpen(false)}>About Us</Link>
           <Link to="/services" onClick={() => setIsMenuOpen(false)}>Services</Link>
           <Link to="/blogs" onClick={() => setIsMenuOpen(false)}>Blogs</Link>
-          <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+          <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact Us</Link>
          <div>
            <AnimatedBtn/>
          </div>
