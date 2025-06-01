@@ -111,7 +111,7 @@ const TestimonialsCarousel: React.FC = () => {
     <section className="bg-[#f9f9f9] py-16 px-4 sm:px-16">
       <div className="text-center mb-10">
         <p className="uppercase font-bold text-sm tracking-wide text-[#046381]">Testimonials</p>
-        <h2 className="text-4xl font-bold text-[#1c2233]">What Patients Say About Us</h2>
+        <h1 className="text-4xl font-bold text-[#1c2233]">What Patients Say About Us</h1>
         <p className="text-gray-600 max-w-2xl mx-auto mt-2">
           Real experiences from patients who trusted us for their cardiology needs.
         </p>

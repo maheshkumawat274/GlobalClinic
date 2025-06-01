@@ -22,7 +22,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, image, description }) 
       />
       <div className="p-2 sm:p-6 md:w-1/2 flex justify-center items-center">
         <div>
-          <h2 className="text-2xl sm:text-5xl font-bold text-[#046381] mb-4">{title}</h2>
+          <h1 className="text-2xl sm:text-5xl font-bold text-[#046381] mb-4">{title}</h1>
           <p className="text-gray-600 text-justify">{description}</p>
         </div>
       </div>

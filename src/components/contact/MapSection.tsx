@@ -6,9 +6,9 @@ const MapSection: React.FC = () => {
   return (
     <section className="w-full h-screen bg-gray-100 flex flex-col justify-center items-center px-4 py-8">
       <div data-aos="fade-up" className="w-full max-w-7xl">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6 text-center">
+        <h1 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6 text-center">
           📍 Find Us on Google Maps
-        </h2>
+        </h1>
 
         <div className="w-full h-[75vh] rounded-2xl overflow-hidden shadow-2xl border border-blue-200">
           

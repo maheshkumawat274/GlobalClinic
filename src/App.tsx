@@ -20,6 +20,7 @@ import Footer from './components/footer/Footer';
 import Popup from './components/context/Popup';
 import { PopupProvider } from './components/context/PopupProvider';
 import SupportSection from './components/contact/SupportSection';
+import BlogsPage from './pages/blogs';
 
 function App() {
   useEffect(() => {
@@ -36,7 +37,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/blogs" element={<ContactPage />} />
+        <Route path="/blogs" element={<BlogsPage/>} />
         
         <Route>
           <Route path="/services" element={<ServicePage />} />

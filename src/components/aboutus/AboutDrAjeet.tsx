@@ -39,7 +39,7 @@ const AboutDrAjeet: React.FC = () => {
           </p>
 
           <div className="mb-4">
-            <h3 className="font-semibold texl-xl md:text-2xl text-gray-800">Qualifications:</h3>
+            <h2 className="font-semibold texl-xl md:text-2xl text-gray-800">Qualifications:</h2>
             <ul className="list-disc list-inside text-gray-600 texl-md sm:text-xl mt-1">
               <li>MBBS, MD (Medicine), DM (Cardiology)</li>
               <li>Fellowship in Interventional Cardiology</li>
@@ -48,7 +48,7 @@ const AboutDrAjeet: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold text-xl sm:text-2xl text-gray-800">Philosophy:</h4>
+            <h2 className="font-semibold text-xl sm:text-2xl text-gray-800">Philosophy:</h2>
             <p className="text-gray-600 text-md md:text-xl mt-1">"Treat the heart, but never forget the human behind it."</p>
           </div>
         </motion.div>

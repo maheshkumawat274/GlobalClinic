@@ -26,22 +26,22 @@ const steps = [
 export default function WorkingProcess() {
   return (
     <section className="bg-white py-16 px-2 text-center">
-      <motion.h2
+      <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="text-[#046381] font-semibold tracking-wide uppercase"
       >
         Working Process
-      </motion.h2>
-      <motion.h3
+      </motion.h1>
+      <motion.h2
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
         className="text-4xl font-bold text-gray-900 mb-4"
       >
         How We Work?
-      </motion.h3>
+      </motion.h2>
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -61,7 +61,7 @@ export default function WorkingProcess() {
             <div className="w-56 h-56 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#046381] ">
               <img src={step.img} alt={step.title} className="w-full h-full object-cover" />
             </div>
-            <h4 className="text-xl font-bold text-gray-800 mb-2">{step.title}</h4>
+            <h3 className="text-xl font-bold text-gray-800 mb-2">{step.title}</h3>
             <p className="text-gray-500 text-sm leading-relaxed">{step.desc}</p>
           </motion.div>
         ))}

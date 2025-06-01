@@ -29,14 +29,14 @@ const Popup: React.FC = () => {
           {/* Left Section - Info Cards */}
           <div className="w-full md:w-1/2 p-4 sm:p-6 flex justify-center items-center">
             <div>
-              <h2 className="text-xl sm:text-2xl font-bold mb-4 text-[#046381] ">Book a Cardiology Appointment</h2>
+              <h1 className="text-xl sm:text-2xl font-bold mb-4 text-[#046381] ">Book a Cardiology Appointment</h1>
             <div className="space-y-4">
 
               {/* Card 1 */}
               <div className="flex items-start bg-white border rounded-lg p-3 shadow-sm hover:shadow-md transition">
                 <FaHeartbeat className="text-[#046381]  text-xl mt-1 mr-3" />
                 <div>
-                  <h3 className="font-semibold text-gray-800">Heart Checkup</h3>
+                  <h2 className="font-semibold text-gray-800">Heart Checkup</h2>
                   <p className="text-sm text-gray-600">Routine heart health check for early diagnosis and prevention.</p>
                 </div>
               </div>
@@ -45,7 +45,7 @@ const Popup: React.FC = () => {
               <div className="flex items-start bg-white border rounded-lg p-3 shadow-sm hover:shadow-md transition">
                 <FaStethoscope className="text-blue-500 text-xl mt-1 mr-3" />
                 <div>
-                  <h3 className="font-semibold text-gray-800">Consult Specialist</h3>
+                  <h2 className="font-semibold text-gray-800">Consult Specialist</h2>
                   <p className="text-sm text-gray-600">Talk to top cardiologists for personalized care and advice.</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const Popup: React.FC = () => {
               <div className="flex items-start bg-white border rounded-lg p-3 shadow-sm hover:shadow-md transition">
                 <FaUserMd className="text-green-500 text-xl mt-1 mr-3" />
                 <div>
-                  <h3 className="font-semibold text-gray-800">Advanced Treatment</h3>
+                  <h2 className="font-semibold text-gray-800">Advanced Treatment</h2>
                   <p className="text-sm text-gray-600">Access critical intervention procedures and expert care.</p>
                 </div>
               </div>

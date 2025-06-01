@@ -65,9 +65,9 @@ const WhyChooseUs = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Why Choose <span className="text-[#046381] ">Global Heart Clinic</span>?
-          </h2>
+          </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Excellence in cardiac care with patient-centered approach
           </p>
@@ -89,7 +89,7 @@ const WhyChooseUs = () => {
               <div className="bg-blue-100 p-4 rounded-full text-[#046381]  mb-4">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">{feature.title}</h3>
+              <h2 className="text-xl font-semibold text-gray-800 mb-2">{feature.title}</h2>
               <p className="text-gray-600">{feature.description}</p>
             </motion.div>
           ))}

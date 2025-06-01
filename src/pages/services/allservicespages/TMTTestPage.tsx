@@ -9,7 +9,7 @@ const TMTTestPage = () => {
         <title>TMT (Stress Test) in Greater Noida | Global Heart Clinic</title>
         <meta
           name="description"
-          content="Assess your heart’s performance under physical stress with the TMT (Treadmill Test) at Global Heart Clinic, Greater Noida. Our expert cardiologists use this test to detect blocked arteries and angina, helping prevent serious cardiac events through early diagnosis and effective treatment."
+          content="Assess your heart’s performance under physical stress with the TMT (Treadmill Test) at Global Heart Clinic, Greater Noida."
         />
         <meta
           name="keywords"

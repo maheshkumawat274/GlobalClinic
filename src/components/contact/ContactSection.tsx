@@ -1,7 +1,6 @@
 import React from 'react';
 import ContactForm from './ContactForm';
 import 'aos/dist/aos.css';
-import SocialMediaIcons from './SocialMediaLinks';
 
 const ContactSection: React.FC = () => {
   return (
@@ -16,15 +15,13 @@ const ContactSection: React.FC = () => {
           className=" space-y-6 flex justify-center "
         >
           <div>
-            <h2 className="text-4xl font-bold bg-clip-text text-white mb-8">
-            Contact Us
-          </h2>
+            
 
           <div className="space-y-6 text-gray-700">
             <div className="flex items-start gap-3 bg-white p-4 w-80 sm:w-96 rounded-lg ">
               <span className="text-[#046381] text-xl">📍</span>
               <div>
-                <h3 className="font-semibold text-lg">Clinic Address</h3>
+                <h2 className="font-semibold text-lg">Clinic Address</h2>
                 <p>Global Heart Clinic, <br/> UG-20 alpha plaza,sector alpha 1,<br/> Greater Noida 201310</p>
               </div>
             </div>
@@ -32,7 +29,7 @@ const ContactSection: React.FC = () => {
             <div className="flex items-start gap-3 bg-white p-4 w-80 sm:w-96 rounded-lg ">
               <span className="text-[#046381] text-xl">📞</span>
               <div>
-                <h3 className="font-semibold text-lg">Phone Number</h3>
+                <h2 className="font-semibold text-lg">Phone Number</h2>
                 <a
                   href="tel:+919711070476"
                   className="text-[#046381] underline hover:text-[#33606e] transition"
@@ -45,7 +42,7 @@ const ContactSection: React.FC = () => {
             <div className="flex items-start gap-3 bg-white p-4 w-80 sm:w-96 rounded-lg ">
               <span className="text-[#046381] text-xl">📧</span>
               <div>
-                <h3 className="font-semibold text-lg">Email</h3>
+                <h2 className="font-semibold text-lg">Email</h2>
                 <a
                   href="mailto:info@globalheartclinic.com"
                   className="text-[#046381] underline hover:text-[#33606e] transition"
@@ -58,16 +55,14 @@ const ContactSection: React.FC = () => {
             <div className="flex items-start gap-3 bg-white p-4 w-80 sm:w-96 rounded-lg ">
               <span className="text-[#046381] text-xl">📅</span>
               <div>
-                <h3 className="font-semibold text-lg">Timings</h3>
+                <h2 className="font-semibold text-lg">Timings</h2>
                 <p>
                   Mon–Sat: 9 AM – 7 PM <br />
                   Sunday: Closed
                 </p>
               </div>
             </div>
-            <div>
-              <SocialMediaIcons/>
-            </div>
+            
           </div>
             </div>
         </div>

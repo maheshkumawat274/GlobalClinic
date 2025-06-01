@@ -10,7 +10,7 @@ const SupportSection = () => {
         {/* Left Content */}
         <div className="md:w-1/2 flex justify-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">Have any Question?</h2>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-black">Have any Question?</h1>
           <p className="text-lg mb-6 text-gray-700">
             Our Client care managers are on call 24/7 to answer your questions.
           </p>
