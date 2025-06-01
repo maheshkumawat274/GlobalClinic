@@ -1,19 +1,16 @@
 
 
 const AnimatedBtn = () => {
+  
   return (
     <>
-    <a
-      href="https://wa.me/919711070476" // replace with your WhatsApp number
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="WhatsApp">
+           
 <div className="relative group cursor-pointer">
   
   <div
     className="relative px-2 sm:px-4 py-3 border-2 border-white text-white font-bold text-lg rounded-lg transform transition-all duration-300 group-hover:translate-y-1 group-hover:translate-x-1 shadow-[6px_6px_10px_rgba(0,0,0,0.6),-6px_-6px_10px_rgba(255,255,255,0.1)] group-hover:shadow-[8px_8px_15px_rgba(0,0,0,0.8),-8px_-8px_15px_rgba(255,255,255,0.15)]"
   >
-    <p className="text-white md:text-white">Book Appointment</p>
+    <button  className="text-white md:text-white">Book Appointment</button>
   </div>
   
   <div
@@ -33,7 +30,6 @@ const AnimatedBtn = () => {
     className="absolute top-2/3 right-3 w-3 h-3 bg-white rounded-full animate-ping opacity-70"
   ></div>
 </div>
-</a>
     </>
   )
 }

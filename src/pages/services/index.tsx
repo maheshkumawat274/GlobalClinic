@@ -1,14 +1,13 @@
-import Footer from "../../components/footer/Footer"
-import Header from "../../components/header/Header"
+
 import HeroServices from "../../components/services/HeroServices"
+import ServicesHome from "../../components/services/ServicesHome"
 
 
 const ServicePage = () => {
   return (
     <>
-     <Header/>
      <HeroServices/>
-     <Footer/>
+     <ServicesHome/>
     </>
   )
 }

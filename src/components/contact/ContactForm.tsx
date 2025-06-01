@@ -141,12 +141,12 @@ const ContactForm = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Name Field */}
             <motion.div variants={item}>
-              <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
+              <label htmlFor="name" className="block text-gray-700 text-sm font-medium mb-2">
                 Full Name
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-[#046381]">
-                  <FaUser className="w-5 h-5" />
+                  <FaUser className="w-3 h-3" />
                 </div>
                 <input
                   type="text"
@@ -154,7 +154,7 @@ const ContactForm = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
+                  className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
                   placeholder="John Doe"
                 />
               </div>
@@ -162,12 +162,12 @@ const ContactForm = () => {
 
             {/* Phone */}
             <motion.div variants={item}>
-              <label htmlFor="phone" className="block text-gray-700 font-medium mb-2">
+              <label htmlFor="phone" className="block text-gray-700 text-sm font-medium mb-2">
                 Phone Number
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-[#046381]">
-                  <FaPhone className="w-5 h-5" />
+                  <FaPhone className="w-3 h-3" />
                 </div>
                 <input
                   type="tel"
@@ -175,7 +175,7 @@ const ContactForm = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleInputChange}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
+                  className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
                   placeholder="+91XXXXXXXXXX"
                 />
               </div>
@@ -183,12 +183,12 @@ const ContactForm = () => {
 
             {/* Email */}
             <motion.div variants={item} className="md:col-span-2">
-              <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
+              <label htmlFor="email" className="block text-gray-700 text-sm font-medium mb-2">
                 Email Address
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-[#046381]">
-                  <FaEnvelope className="w-5 h-5" />
+                  <FaEnvelope className="w-3 h-3" />
                 </div>
                 <input
                   type="email"
@@ -196,7 +196,7 @@ const ContactForm = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
+                  className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
                   placeholder="your@email.com"
                 />
               </div>
@@ -204,12 +204,12 @@ const ContactForm = () => {
 
             {/* Date */}
             <motion.div variants={item}>
-              <label htmlFor="date" className="block text-gray-700 font-medium mb-2">
+              <label htmlFor="date" className="block text-gray-700 text-sm font-medium mb-2">
                 Appointment Date
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-[#046381]">
-                  <FaCalendarAlt className="w-5 h-5" />
+                  <FaCalendarAlt className="w-3 h-3" />
                 </div>
                 <input
                   type="date"
@@ -217,19 +217,19 @@ const ContactForm = () => {
                   name="date"
                   value={formData.date}
                   onChange={handleInputChange}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
+                  className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
                 />
               </div>
             </motion.div>
 
             {/* Time */}
             <motion.div variants={item}>
-              <label htmlFor="time" className="block text-gray-700 font-medium mb-2">
+              <label htmlFor="time" className="block text-gray-700 text-sm font-medium mb-2">
                 Preferred Time
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-[#046381]">
-                  <FaClock className="w-5 h-5" />
+                  <FaClock className="w-3 h-3" />
                 </div>
                 <input
                   type="time"
@@ -237,14 +237,14 @@ const ContactForm = () => {
                   name="time"
                   value={formData.time}
                   onChange={handleInputChange}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
+                  className="w-full pl-8 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#046381] focus:border-[#046381] transition-all duration-300 hover:border-blue-400"
                 />
               </div>
             </motion.div>
 
             {/* Message */}
             <motion.div variants={item} className="md:col-span-2">
-              <label htmlFor="message" className="block text-gray-700 font-medium mb-2">
+              <label htmlFor="message" className="block text-gray-700 text-sm font-medium mb-2">
                 Your Message
               </label>
               <textarea
@@ -269,7 +269,7 @@ const ContactForm = () => {
               type="submit"
               className="w-full bg-[#046381] hover:bg-[#046381] cursor-pointer text-white font-medium py-3 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2"
             >
-              <FaPaperPlane className="w-5 h-5" />
+              <FaPaperPlane className="w-3 h-3" />
               <span>Book Appointment</span>
             </button>
           </motion.div>

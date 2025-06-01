@@ -1,37 +1,46 @@
 
 import { motion } from 'framer-motion';
 import { FaCheckCircle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
     title: 'Preventive Heart Checkups',
-    description: 'Regular screening to detect issues early – includes BP monitoring, ECG, cholesterol tests, and risk profiling.'
+    description: 'Regular screening to detect issues early – includes BP monitoring, ECG, cholesterol tests, and risk profiling.',
+    link: '/services/preventive-checkups'
   },
   {
     title: 'ECG and ECHO',
-    description: 'Accurate and fast cardiac testing using Electrocardiogram and Echocardiography to assess heart rhythm and chamber function.'
+    description: 'Accurate and fast cardiac testing using Electrocardiogram and Echocardiography to assess heart rhythm and chamber function.',
+    link: '/services/ecg-echo'
   },
   {
     title: 'TMT (Stress Test)',
-    description: 'Track heart performance under physical exertion – crucial for assessing blocked arteries or angina.'
+    description: 'Track heart performance under physical exertion – crucial for assessing blocked arteries or angina.',
+    link: '/services/tmt-test'
   },
   {
     title: 'Hypertension & Cholesterol Management',
-    description: 'Controlled lifestyle plans and medical intervention to lower heart disease risks.'
+    description: 'Controlled lifestyle plans and medical intervention to lower heart disease risks.',
+    link: '/services/hypertension'
   },
   {
     title: 'Emergency Cardiac Care',
-    description: 'On-call services for chest pain, cardiac distress – handled with speed, skill, and support.'
+    description: 'On-call services for chest pain, cardiac distress – handled with speed, skill, and support.',
+    link: '/services/emergency-cardiac'
   },
   {
     title: 'Post-Heart Attack Care',
-    description: 'Structured recovery and lifestyle guidance post-heart event to prevent recurrence.'
+    description: 'Structured recovery and lifestyle guidance post-heart event to prevent recurrence.',
+    link: '/services/post-heart-attack'
   },
   {
     title: 'Diabetic Heart Care',
-    description: 'Specialized cardiology for diabetes patients prone to heart disease complications.'
+    description: 'Specialized cardiology for diabetes patients prone to heart disease complications.',
+    link: '/services/diabetic-heart'
   },
 ];
+
 
 const ServicesHome = () => {
   const leftServices = services.slice(0, Math.ceil(services.length / 2));
@@ -58,7 +67,7 @@ const ServicesHome = () => {
               <div>
                 <h4 className="font-bold text-lg text-gray-800">{service.title}</h4>
                 <p className="text-gray-500 text-sm mt-1">{service.description}</p>
-                <button className="text-[#046381] font-bold mt-2 text-sm hover:underline">Read more</button>
+                <Link to={service.link}><button className="text-[#046381] font-bold mt-2 text-sm hover:underline">Read more</button></Link>
               </div>
             </motion.div>
           ))}
@@ -88,7 +97,9 @@ const ServicesHome = () => {
               <div>
                 <h4 className="font-bold text-lg text-gray-800">{service.title}</h4>
                 <p className="text-gray-500 text-sm mt-1">{service.description}</p>
-                <button className="text-[#046381] font-bold mt-2 text-sm hover:underline">Read more</button>
+                <Link to={service.link}>
+                   <button className="text-[#046381] font-bold mt-2 text-sm hover:underline">Read more</button>
+                </Link>
               </div>
             </motion.div>
           ))}

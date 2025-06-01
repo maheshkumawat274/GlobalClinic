@@ -1,7 +1,12 @@
 import React from 'react';
 import Herobtn from '../btns/Herobtn';
+import { usePopup } from '../context/UsePop';
 
 const HeroSection: React.FC = () => {
+  const { openPopup } = usePopup();
+  const handleClick = () => {
+  openPopup();
+};
   return (
     <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('./imgs/hero.jpg')" }}>
       {/* Overlay */}
@@ -14,7 +19,7 @@ const HeroSection: React.FC = () => {
           <h2 className="text-lg md:text-xl mb-6">
             Experience world-class cardiology care with Dr. Ajeet Singh at Global Heart Clinic.
           </h2>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div onClick={handleClick} className="flex flex-col sm:flex-row gap-4">
             {/* <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md font-semibold transition">
               Book Appointment
             </button> */}

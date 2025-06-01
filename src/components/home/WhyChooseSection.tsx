@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaHeartbeat, FaUserMd, FaClinicMedical, FaFileMedicalAlt, FaMoneyBillWave } from 'react-icons/fa';
+import { usePopup } from '../context/UsePop';
 
 const WhyChooseUs = () => {
   const features = [
@@ -49,6 +50,10 @@ const WhyChooseUs = () => {
         duration: 0.5
       }
     }
+  };
+   const { openPopup } = usePopup();
+    const handleClick = () => {
+    openPopup();
   };
 
   return (
@@ -101,7 +106,7 @@ const WhyChooseUs = () => {
           }}
           className="text-center mt-12"
         >
-          <button className="bg-[#046381]  hover:bg-blue-700 cursor-pointer text-white px-4 sm:px-8 py-3 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
+          <button onClick={handleClick}  className="bg-[#046381]  hover:bg-blue-700 cursor-pointer text-white px-4 sm:px-8 py-3 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
             Schedule Your Consultation Today
           </button>
         </motion.div>
