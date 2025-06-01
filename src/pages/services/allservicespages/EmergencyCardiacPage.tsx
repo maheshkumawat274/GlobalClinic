@@ -9,7 +9,7 @@ const EmergencyCardiacPage = () => {
         <title>Emergency Cardiac Care in Greater Noida | Global Heart Clinic</title>
         <meta
           name="description"
-          content="Global Heart Clinic in Greater Noida provides 24/7 Emergency Cardiac Care for chest pain, cardiac distress, and heart attack symptoms. Our team of experienced cardiologists and trained emergency responders ensure immediate assessment and rapid intervention during critical heart conditions. We use advanced cardiac support and monitoring equipment to stabilize patients quickly. For reliable emergency heart care near you, trust Global Heart Clinic for professional, life-saving treatment when every second counts."
+          content="Global Heart Clinic in Greater Noida provides 24/7 Emergency Cardiac Care for chest pain, cardiac distress, and heart attack symptoms."
         />
         <meta
           name="keywords"

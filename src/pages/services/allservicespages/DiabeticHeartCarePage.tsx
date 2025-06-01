@@ -9,7 +9,7 @@ const DiabeticHeartCarePage = () => {
         <title>Diabetic Heart Care – Specialized Cardiac Treatment | Global Heart Clinic</title>
         <meta
           name="description"
-          content="Global Heart Clinic in Greater Noida offers expert Diabetic Heart Care for patients with diabetes who are at high risk of heart complications. Our specialized cardiology approach combines early diagnosis, lifestyle modification, blood sugar control, and cardiovascular monitoring to prevent long-term damage. With personalized treatment plans and regular follow-ups, we help diabetic patients maintain better heart health. Trust our experienced team for focused cardiac care in Greater Noida, ensuring improved quality of life and prevention of major heart issues."
+          content="Global Heart Clinic in Greater Noida offers expert Diabetic Heart Care for patients with diabetes who are at high risk of heart complications. Our specialized cardiology approach combines early diagnosis, lifestyle modification, blood sugar control, and cardiovascular monitoring to prevent long-term damage."
         />
         <meta
           name="keywords"

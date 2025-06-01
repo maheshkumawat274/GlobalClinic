@@ -9,7 +9,7 @@ const ECGEchoPage = () => {
         <title>ECG and ECHO Test in Greater Noida | Global Heart Clinic</title>
         <meta
           name="description"
-          content="Get accurate ECG and ECHO testing at Global Heart Clinic in Greater Noida. We offer advanced Electrocardiogram (ECG) and Echocardiography (ECHO) services to assess heart rhythm, chamber size, and function. Our expert cardiology team ensures quick and precise cardiac diagnosis using non-invasive, patient-friendly methods. Whether for routine screening or follow-up care, our heart testing facilities help detect early signs of heart disease and guide effective treatment. Book your heart test today at our trusted diagnostic center in Greater Noida."
+          content="Get accurate ECG and ECHO testing at Global Heart Clinic in Greater Noida. We offer advanced Electrocardiogram (ECG) and Echocardiography (ECHO) services to assess heart rhythm, chamber size, and function."
         />
         <meta
           name="keywords"

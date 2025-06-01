@@ -9,7 +9,7 @@ const PreventiveCheckupsPage = () => {
         <title>Preventive Heart Checkups in Greater Noida | Global Heart Clinic</title>
         <meta
           name="description"
-          content="Stay ahead of heart disease with comprehensive preventive heart checkups at Global Heart Clinic, Greater Noida. Our screenings include blood pressure monitoring, ECG, cholesterol tests, and risk profiling to detect heart issues early. Trust our expert cardiologists to help you maintain a healthy heart and prevent cardiac complications through timely diagnosis and personalized care."
+          content="Stay ahead of heart disease with comprehensive preventive heart checkups at Global Heart Clinic, Greater Noida. Our screenings include blood pressure monitoring, ECG, cholesterol tests, and risk profiling to detect heart issues early."
         />
         <meta
           name="keywords"

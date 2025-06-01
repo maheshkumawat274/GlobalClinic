@@ -9,7 +9,7 @@ const PostHeartAttackPage = () => {
         <title>Post-Heart Attack Care in Greater Noida | Global Heart Clinic</title>
         <meta
           name="description"
-          content="Recover safely with expert post-heart attack care at Global Heart Clinic in Greater Noida. Our comprehensive recovery plans include lifestyle counseling, cardiac rehab, and personalized follow-up to prevent recurrence and improve heart strength. Trust Dr. Ajeet Kumar and our dedicated team to support your heart health journey after a cardiac event."
+          content="Recover safely with expert post-heart attack care at Global Heart Clinic in Greater Noida. Our comprehensive recovery plans include lifestyle counseling, cardiac rehab, and personalized follow-up to prevent recurrence and improve heart strength. "
         />
         <meta
           name="keywords"

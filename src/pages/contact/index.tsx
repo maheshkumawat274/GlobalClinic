@@ -10,7 +10,7 @@ const ContactPage = () => {
         <title>Contact Us - Global Heart Clinic | Book Your Appointment Today</title>
         <meta
           name="description"
-          content="Get in touch with Global Heart Clinic for expert healthcare support and consultations. Use our contact form to book appointments, ask questions, or locate our clinic using the embedded map. We are here to guide you with personalized medical services. Connect with us via phone, email, or visit our clinic during operating hours. Your health and wellness are our top priority. Reach out now and let us help you take a step towards better care."
+          content="Contact Global Heart Clinic for expert healthcare. Book appointments, ask questions, or visit us. Call, email, or use our contact form. Your wellness is our priority."
         />
         <meta
           name="keywords"

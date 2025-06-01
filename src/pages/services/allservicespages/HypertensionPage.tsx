@@ -9,7 +9,7 @@ const HypertensionPage = () => {
         <title>Hypertension & Cholesterol Management in Greater Noida | Global Heart Clinic</title>
         <meta
           name="description"
-          content="Global Heart Clinic in Greater Noida offers expert management of hypertension and cholesterol with lifestyle guidance, regular monitoring, and medical care. Our cardiology team provides personalized treatment plans to reduce heart disease risk and promote long-term heart health. Take control of your blood pressure and cholesterol levels with safe and effective care from Global Heart Clinic – your trusted heart health partner in Greater Noida."
+          content="Global Heart Clinic in Greater Noida offers expert management of hypertension and cholesterol with lifestyle guidance, regular monitoring, and medical care."
         />
         <meta
           name="keywords"

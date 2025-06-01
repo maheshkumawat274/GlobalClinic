@@ -15,7 +15,7 @@ const Homepage = () => {
         <title>Global Heart Clinic - Your Trusted Healthcare Partner</title>
         <meta
           name="description"
-          content="Global Heart Clinic is a multi-specialty healthcare center offering modern medical services, expert consultation, and compassionate care. From general checkups to advanced diagnostics and treatments, we ensure our patients receive personalized attention and high-quality care. Our dedicated team of professionals and well-equipped facility make us a one-stop solution for families seeking reliable healthcare. We are committed to promoting wellness, preventive care, and long-term health outcomes. Visit Global Heart Clinic today and experience healthcare that puts your needs first. Book your appointment now and take the first step toward better health."
+          content="Global Heart Clinic is a multi-specialty healthcare center offering modern medical services, expert consultation, and compassionate care. From general checkups to advanced diagnostics and treatments, we ensure our patients receive personalized attention and high-quality care. "
         />
         <meta property="og:title" content="Global Heart Clinic - Your Trusted Healthcare Partner" />
         <meta

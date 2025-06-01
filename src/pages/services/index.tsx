@@ -9,7 +9,7 @@ const ServicePage = () => {
     <title>Cardiac & Preventive Services – Global Heart Clinic | Noida</title>
         <meta
           name="description"
-          content="Global Clinic offers advanced heart care services including Preventive Heart Checkups, ECG, ECHO, TMT (Stress Test), Hypertension and Cholesterol Management, Emergency Cardiac Care, Post-Heart Attack Recovery, and specialized Diabetic Heart Care. Our expert team ensures early detection, effective monitoring, and long-term cardiac health. Whether you need routine screening or post-cardiac rehabilitation, we provide trusted, compassionate care in Noida. Your heart health is our top priority — get tested, stay safe."
+          content="Global Clinic offers advanced heart care services including Preventive Heart Checkups, ECG, ECHO, TMT (Stress Test), Hypertension and Cholesterol Management, Emergency Cardiac Care, Post-Heart Attack Recovery, and specialized Diabetic Heart Care. "
         />
         <meta
           name="keywords"

@@ -9,7 +9,7 @@ const AboutPage = () => {
         <title>About Dr. Ajeet Kumar - Global Heart Clinic</title>
         <meta
           name="description"
-          content="Dr. Ajeet Singh is a highly experienced cardiologist with over 15 years of service in the field. He specializes in non-invasive cardiac care, preventive cardiology, and complex diagnosis. His mission is to provide holistic heart care rooted in empathy, science, and technology."
+          content="Dr. Ajeet Singh is a highly experienced cardiologist with over 15 years of service in the field. He specializes in non-invasive cardiac care, preventive cardiology, and complex diagnosis."
         />
          <meta
           name="keywords"
