@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
           <h2 className="font-bold mb-1 text-2xl sm:text-3xl">Contact</h2>
           <div className="text-lg">
           <div>UG-20 alpha plaza,sector alpha 1, Greater Noida 201310</div>
-          <div>+918252587182</div>
+          <div>+919711070476</div>
           <div>info@globalheartclinic.com</div>
           </div>
         </div>

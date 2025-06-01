@@ -21,6 +21,7 @@ import Popup from './components/context/Popup';
 import { PopupProvider } from './components/context/PopupProvider';
 import SupportSection from './components/contact/SupportSection';
 import BlogsPage from './pages/blogs';
+import WhatsAppBtn from './components/WhatssappBtn';
 
 function App() {
   useEffect(() => {
@@ -35,10 +36,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
-        
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/blogs" element={<BlogsPage/>} />
-        
+
         <Route>
           <Route path="/services" element={<ServicePage />} />
         <Route path="/services/preventive-checkups" element={<PreventiveCheckupsPage />} />
@@ -50,11 +48,17 @@ function App() {
         <Route path="/services/diabetic-heart" element={<DiabeticHeartCarePage />} />
         </Route>
 
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/blogs" element={<BlogsPage/>} />
+        
+        
+
 
       </Routes>
       <Popup/>
       <SupportSection/>
       <Footer/>
+      <WhatsAppBtn/>
     </Router>
     </PopupProvider>
   );
