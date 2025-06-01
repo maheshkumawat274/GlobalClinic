@@ -246,7 +246,7 @@ const Header: React.FC = () => {
       <div className={`bg-[#046381] px-4 flex justify-between items-center shadow transition-all duration-300 ${isScrolled ? "fixed top-0 w-full z-20" : ""}`}>
         <div className="flex items-center gap-3 h-24 w-48">
           <Link to="/" className="flex items-center gap-2" aria-label="Global Heart Clinic">
-            <img src="./imgs/logo.png" alt="Global Heart Clinic logo" />
+            <img src="/imgs/logo.png" alt="Global Heart Clinic logo" />
           </Link>
         </div>
 
@@ -315,7 +315,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center px-4 py-4 border-b border-white/20">
           <div className="flex items-center gap-3 h-24 w-48">
             <Link to="/" className="flex items-center gap-2" aria-label="Global Heart Clinic">
-              <img src="./imgs/logo.png" alt="Global Heart Clinic logo" />
+              <img src="/imgs/logo.png" alt="Global Heart Clinic logo" />
             </Link>
           </div>
           <button onClick={() => setIsMenuOpen(false)} aria-label="Close Mobile Menu" className="text-white text-3xl"><IoClose /></button>

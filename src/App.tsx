@@ -38,7 +38,8 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/blogs" element={<ContactPage />} />
         
-        <Route path="/services" element={<ServicePage />} />
+        <Route>
+          <Route path="/services" element={<ServicePage />} />
         <Route path="/services/preventive-checkups" element={<PreventiveCheckupsPage />} />
         <Route path="/services/ecg-echo" element={<ECGEchoPage />} />
         <Route path="/services/tmt-test" element={<TMTTestPage />} />
@@ -46,6 +47,7 @@ function App() {
         <Route path="/services/emergency-cardiac" element={<EmergencyCardiacPage />} />
         <Route path="/services/post-heart-attack" element={<PostHeartAttackPage/>} />
         <Route path="/services/diabetic-heart" element={<DiabeticHeartCarePage />} />
+        </Route>
 
 
       </Routes>

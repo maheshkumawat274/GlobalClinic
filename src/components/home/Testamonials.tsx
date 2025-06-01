@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Pankaj Mehta",
     location: "Gurgaon",
-    image: "/images/p1.jpg",
+    image: "/imgs/profile1.jpeg",
     title: "Heart Diagnosis",
     message:
       "I had constant chest pain and ignored it. Dr. Ajeet’s timely diagnosis saved my life. Highly recommend him!",
@@ -25,7 +25,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Nisha Verma",
     location: "Delhi",
-    image: "/images/p2.jpg",
+    image: "/imgs/profile2.jpg",
     title: "Angioplasty",
     message:
       "Thanks to Dr. Ajeet and his team for successfully performing my angioplasty. The care was exceptional and comforting.",
@@ -33,7 +33,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Rajeev Sharma",
     location: "Noida",
-    image: "/images/p3.jpg",
+    image: "/imgs/profile3.jpg",
     title: "Heart Surgery",
     message:
       "My heart surgery was a scary thought. But the professionalism and empathy of the doctors made it smooth and successful.",
@@ -41,7 +41,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Rekha Singh",
     location: "Lucknow",
-    image: "/images/p4.jpg",
+    image: "/imgs/profile4.jpeg",
     title: "Cardiac Rehab",
     message:
       "Post heart attack recovery became possible due to the rehab program here. I am grateful to the entire team.",
@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Ankit Desai",
     location: "Jaipur",
-    image: "/images/p5.jpg",
+    image: "/imgs/profile5.jpg",
     title: "Pacemaker Implant",
     message:
       "I never thought I’d live a normal life again. The pacemaker surgery was a success and I’m feeling great.",
@@ -57,7 +57,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Meera Joshi",
     location: "Chandigarh",
-    image: "/images/p6.jpg",
+    image: "/imgs/profile6.jpg",
     title: "Valve Replacement",
     message:
       "Dr. Ajeet and team gave me a new life after a successful valve replacement. Deeply thankful!",
@@ -65,7 +65,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Saurabh Yadav",
     location: "Agra",
-    image: "/images/p7.jpg",
+    image: "/imgs/profile7.jpg",
     title: "Heart Monitoring",
     message:
       "Their 24/7 monitoring system helped me control my heart condition. The dedication is truly amazing.",
@@ -73,7 +73,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Ritika Dey",
     location: "Kolkata",
-    image: "/images/p8.jpg",
+    image: "/imgs/profile8.jpeg",
     title: "ECG & Diagnosis",
     message:
       "Quick diagnosis through ECG saved me from a major problem. Forever grateful to the doctors here.",
