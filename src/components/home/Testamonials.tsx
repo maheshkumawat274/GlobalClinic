@@ -108,7 +108,7 @@ const TestimonialsCarousel: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#f9f9f9] py-16 px-4 sm:px-16">
+    <section className="py-16 px-4 sm:px-16">
       <div className="text-center mb-10">
         <p className="uppercase font-bold text-sm tracking-wide text-[#046381]">Testimonials</p>
         <h1 className="text-4xl font-bold text-[#1c2233]">What Patients Say About Us</h1>
@@ -118,7 +118,7 @@ const TestimonialsCarousel: React.FC = () => {
       </div>
       <Slider {...settings}>
         {testimonials.map((t, idx) => (
-          <div key={idx} className="px-4">
+          <div key={idx} className="px-4 py-8">
             <div className="bg-white p-6 rounded-lg shadow-md h-72 flex flex-col justify-between">
               <div className="flex items-center gap-4 mb-4">
                 <img

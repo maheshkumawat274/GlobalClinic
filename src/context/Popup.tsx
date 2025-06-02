@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "../contact/ContactForm";
+import ContactForm from "../components/contact/ContactForm";
 import { usePopup } from "./UsePop";
 import { FaHeartbeat, FaUserMd, FaStethoscope, FaTimes } from "react-icons/fa";
 

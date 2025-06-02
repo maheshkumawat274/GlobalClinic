@@ -1,6 +1,6 @@
 import React from 'react';
 import Herobtn from '../btns/Herobtn';
-import { usePopup } from '../context/UsePop';
+import { usePopup } from '../../context/UsePop';
 
 const HeroSection: React.FC = () => {
   const { openPopup } = usePopup();

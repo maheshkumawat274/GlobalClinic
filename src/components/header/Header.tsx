@@ -14,7 +14,7 @@ import { FaChevronDown } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import AnimatedBtn from "../btns/Animatedbtn";
 import './header.css'
-import { usePopup } from "../context/UsePop";
+import { usePopup } from "../../context/UsePop";
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

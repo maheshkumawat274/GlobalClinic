@@ -17,8 +17,8 @@ import PostHeartAttackPage from './pages/services/allservicespages/PostHeartAtta
 import DiabeticHeartCarePage from './pages/services/allservicespages/DiabeticHeartCarePage';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import Popup from './components/context/Popup';
-import { PopupProvider } from './components/context/PopupProvider';
+import Popup from './context/Popup';
+import { PopupProvider } from './context/PopupProvider';
 import SupportSection from './components/contact/SupportSection';
 import BlogsPage from './pages/blogs';
 import WhatsAppBtn from './components/WhatssappBtn';

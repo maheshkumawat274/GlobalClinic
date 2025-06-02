@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { PopupContext } from "../context/PopupContext";
-import type { PopupContextType } from "../context/PopupContext";
+import { PopupContext } from "./PopupContext";
+import type { PopupContextType } from "./PopupContext";
 
 export const usePopup = (): PopupContextType => {
   const context = useContext(PopupContext);

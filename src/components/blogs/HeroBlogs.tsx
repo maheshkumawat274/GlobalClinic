@@ -11,7 +11,7 @@ const HeroBlogs: React.FC = () => {
         <div className="text-center text-white px-4">
           <h1 className="text-5xl font-bold mb-4">Blogs</h1>
           <p className="text-lg max-w-xl mx-auto">
-            Cardiology - Contact Us
+            Cardiology - Blogs
           </p>
         </div>
       </div>

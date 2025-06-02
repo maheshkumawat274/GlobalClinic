@@ -1,4 +1,5 @@
 
+import BlogPosts from "../../components/blogs/BlogPosts"
 import ContactHome from "../../components/contact/ContactHome"
 import HeroSection from "../../components/home/Hero"
 import IntroSection from "../../components/home/IntroSection"
@@ -38,6 +39,7 @@ const Homepage = () => {
     <ContactHome/>
     
     <TestimonialsCarousel/>
+    <BlogPosts/>
     
     </>
   )

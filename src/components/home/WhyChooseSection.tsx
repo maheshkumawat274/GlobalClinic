@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaHeartbeat, FaUserMd, FaClinicMedical, FaFileMedicalAlt, FaMoneyBillWave } from 'react-icons/fa';
-import { usePopup } from '../context/UsePop';
+import { usePopup } from '../../context/UsePop';
 
 const WhyChooseUs = () => {
   const features = [
