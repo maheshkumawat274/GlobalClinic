@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
   openPopup();
 };
   return (
-    <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('./imgs/hero.jpg')" }}>
+    <section className="relative w-full h-[50vh] md:h-[80vh] bg-cover bg-center" style={{ backgroundImage: "url('./imgs/hero.jpg')" }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 

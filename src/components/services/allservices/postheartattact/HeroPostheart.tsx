@@ -3,7 +3,7 @@
 const HeroPostheart = () => {
   return (
     <>
-     <div className="relative h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imgs/heart-attack.avif')" }}>
+     <div className="relative h-[50vh] md:h-[80vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imgs/heart-attack.avif')" }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 

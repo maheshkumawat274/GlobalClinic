@@ -1,4 +1,5 @@
 
+import HeroServices from "../../components/services/HeroServices";
 import ServicesHome from "../../components/services/ServicesHome"
 import { Helmet } from "react-helmet";
 
@@ -24,6 +25,7 @@ const ServicePage = () => {
         <meta property="og:url" content="https://globalclinic.netlify.app/services" />
         <meta property="og:type" content="website" />
       </Helmet>
+      <HeroServices/>
      <ServicesHome/>
     </>
   )

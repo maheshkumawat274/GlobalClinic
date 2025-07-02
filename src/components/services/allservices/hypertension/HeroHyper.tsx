@@ -3,7 +3,7 @@
 const HeroHyper = () => {
   return (
     <>
-     <div className="relative h-screen bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imgs/hypertension.jpg')" }}>
+     <div className="relative h-[50vh] md:h-[80vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imgs/hypertension.jpg')" }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
