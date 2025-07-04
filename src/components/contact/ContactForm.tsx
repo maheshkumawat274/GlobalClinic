@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaUser, FaPhone, FaEnvelope, FaCalendarAlt, FaClock, FaPaperPlane } from 'react-icons/fa';
 import { useState } from 'react';
-
+import config from "../../../config";
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -72,27 +72,41 @@ const ContactForm = () => {
     return true;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-    if (validateForm()) {
-      setSuccess(true);
-      setFormData({
-        name: '',
-        phone: '+91',
-        email: '',
-        date: '',
-        time: '',
-        message: ''
+  if (validateForm()) {
+    try {
+      // const response = await fetch("http://localhost/mahesh'project/backend/api/submit_form.php", {
+      const response = await fetch(`${config.API_BASE_URL}/submit_form.php`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData)
       });
 
-      setTimeout(() => {
+      const result = await response.json();
+      if (result.success) {
+        setSuccess(true);
+        setFormData({
+          name: '',
+          phone: '+91',
+          email: '',
+          date: '',
+          time: '',
+          message: ''
+        });
+        setTimeout(() => setSuccess(false), 3000);
+      } else {
+        setError(result.message || "Submission failed.");
         setSuccess(false);
-      }, 3000);
-    } else {
+      }
+    } catch (err) {
+      setError("Something went wrong.");
       setSuccess(false);
     }
-  };
+  }
+};
+
 
   const container = {
     hidden: { opacity: 0 },

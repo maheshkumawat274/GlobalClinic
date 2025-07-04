@@ -80,7 +80,7 @@ const ServicesHome = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <img src='./imgs/contact.jpg' alt="Doctor with heart" className="w-full" />
+          <img src='./imgs/drajeet1.jpeg' alt="Doctor with heart" className="w-full" />
         </motion.div>
 
         <div className="flex flex-col gap-8 w-full lg:w-1/3">

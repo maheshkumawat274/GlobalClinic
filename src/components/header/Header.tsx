@@ -116,6 +116,7 @@ const Header: React.FC = () => {
               )}
             </li>
             {/* <li><Link className="hover:border-b-2 border-white" to="/blogs">Blogs</Link></li> */}
+            <li><Link className="hover:border-b-2 border-white" to="/gallery">Our Environment</Link></li>
             <li><Link className="hover:border-b-2 border-white" to="/contact">Contact Us</Link></li>
           </ul>
         </nav>
@@ -193,6 +194,7 @@ const Header: React.FC = () => {
           </div>
 
           {/* <Link to="/blogs" onClick={() => setIsMenuOpen(false)}>Blogs</Link> */}
+          <Link to="/gallery" onClick={() => setIsMenuOpen(false)}>Our Environment</Link>
           <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact Us</Link>
           <div onClick={handleClick}><AnimatedBtn /></div>
         </nav>

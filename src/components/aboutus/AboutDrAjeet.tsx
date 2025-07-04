@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const AboutDrAjeet: React.FC = () => {
   return (
-    <div className="min-h-screen py-10 px-2 md:px-16 flex items-center justify-center">
+    <div className=" py-10 px-2 md:px-16 flex items-center justify-center">
       <motion.div
         className=" w-full flex flex-col md:flex-row gap-8"
         initial={{ opacity: 0, y: 30 }}
@@ -12,13 +12,13 @@ const AboutDrAjeet: React.FC = () => {
       >
         {/* Image Section */}
         <motion.div
-          className="md:w-1/2"
+          className="md:w-1/2 flex justify-center items-center "
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
           <img
-            src="./imgs/contact.jpg" // Replace with actual image path
+            src="./imgs/drajeet2.jpeg" // Replace with actual image path
             alt="Dr. Ajeet Singh"
             className="w-full object-cover"
           />
